@@ -35,7 +35,7 @@ RUN apt-get clean && \
 
 # Install nvm with node and npm
 ENV NVM_DIR /usr/local/nvm
-ENV NODE_VERSION 10
+ENV NODE_VERSION 20
 
 RUN mkdir -p $NVM_DIR \
     && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash \
