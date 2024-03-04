@@ -19,7 +19,7 @@ tmp
 out
 
 # misc
-.DS_Store
+*.DS_Store
 *.pem
 .rpt2_cache
 .env*
